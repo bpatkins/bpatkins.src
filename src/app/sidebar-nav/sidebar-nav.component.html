@@ -1,0 +1,6 @@
+<md-sidenav-container class="example-container">
+  <md-sidenav [opened]="openSidebar" class="example-sidenav">
+    <app-sidebar-content (navigationRouteEvent)="navigationRouted($event)"></app-sidebar-content>
+  </md-sidenav>
+  <app-content-view></app-content-view>
+</md-sidenav-container>
